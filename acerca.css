@@ -1,0 +1,194 @@
+main{
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+   
+}
+.contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
+    background: linear-gradient(360deg, rgba(247, 166, 166, 0.829), rgba(192, 22, 22, 0));
+}
+
+.contenedor-banner_acerca{
+    position: relative;
+	width: 100%;
+    background: transparent;
+	
+	
+   
+    
+}
+.slider-banner_acerca{
+    width: 100%;
+
+	display: flex;
+	justify-content: center;
+   flex-direction: column;
+	align-items: center;
+    background: transparent;
+}
+  
+.slider-banner_acerca .contenido-banner_acerca{
+  padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido-banner_acerca .banner-acerca{
+    width: 500px;
+}
+
+.contenido-banner_acerca img{
+    width: 500px;
+    margin-left: 250px;
+}
+.contenido-banner_acerca .banner-acerca h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contenido-banner_acerca .banner-acerca p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/*EQUIPO*/
+.contenedor-equipo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: var(--iv-white);
+}
+
+
+.contenido-banner_equipo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.banner-equipo{
+    padding: 30px;
+}
+
+.banner-equipo h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-contacto{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.banner-contacto_img{
+    width: 300px;
+    height: 300px;
+    
+}
+.banner-contacto_img img{
+    width: 100%;
+    border-radius: 50px;
+    
+}
+
+/* SOCIOS*/
+.contenedor-socios{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+.banner-socios h1{
+    font-size: 40px;
+}
+
+.contenedor-socios .contenedor-banner_socios .banner-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.contenedor-socios .contenedor-banner_socios .banner-imagen .banner-socios_imagen{
+   width: 200px;
+   height: 300px;
+   border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 10px 0 rgba(204, 36, 36, 0.829);
+    cursor: pointer;
+}
+.contenedor-socios .contenedor-banner_socios .banner-imagen .banner-socios_imagen:hover{
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+}
+.contenedor-socios .contenedor-banner_socios .banner-imagen .banner-socios_imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+/*VMO*/
+
+.contenedor-vmo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--iv-white);
+    width: 100%;
+}
+
+.contenedor-vmo .contenido-banner_vmo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor-vmo .contenido-banner_vmo .banner-vmo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    
+}
+
+.contenedor-vmo .contenido-banner_vmo .banner-vmo .banner-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 150px;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.contenedor-vmo .contenido-banner_vmo .banner-vmo .banner-icon i{
+    font-size: 50px;
+    color: red;
+}
+.contenedor-vmo .contenido-banner_vmo .banner-vmo h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
