@@ -522,15 +522,18 @@ footer{
 /* MOBILE*/
 @media screen and (max-width: 860px) {
    
-     .header .navbar{
+     html{
+        font-size: 80%;
+     }
+    .header .navbar{
         display: flex;
         margin: 0 20px;
         
 
-     }
-     .header {
+    }
+    .header {
         position: relative;
-     }
+    }
     .responsive{
         display: block;
         border-radius: 15px;
@@ -608,5 +611,12 @@ footer{
     }
     .contenido-banner .banner{
         width:300px;
+    }
+    .barra .navdos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
     }
 }
