@@ -247,6 +247,8 @@ main{
         align-items: center;
         justify-content: center;
     }
+
+   
     .contenedor-equipo .contenedor-banner_equipo .slider-banner_equipo .contenido-banner_equipo .banner-equipo{
         padding: 15px;
         width: 200px;
@@ -323,6 +325,7 @@ main{
         flex-direction: row;
         width: 70%;
        justify-content: space-around;
+       margin-top: 4rem;
     }
 
     .banner-equipo{
@@ -336,10 +339,11 @@ main{
     .contenido-banner_equipo{
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
         
     }
     .banner-contacto_img{
-        width: 200px;
+        width: 150px;
     }
 
     .contenedor{
@@ -367,18 +371,15 @@ main{
 
     .contenedor-equipo{
         width: 100%;
+        
       
     }
+    .contenedor-equipo  .contenido-banner_equipo {
+        padding: 4rem;
+    }
 
-    .contenedor-banner_equipo{
-        width: 100%;
-        
-    }
-    .slider-banner_equipo{
-        width: 100%;
-       
-    }
-    .contenedor-equipo .contenedor-banner_equipo .slider-banner_equipo .contenido-banner_equipo .banner-contacto{
+    
+    .contenedor-equipo  .contenido-banner_equipo .banner-contacto{
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -386,29 +387,30 @@ main{
     }
    
 
-    .contenedor-equipo .contenedor-banner_equipo .slider-banner_equipo .contenido-banner_equipo .banner-equipo{
-        width: 600px;
-        padding: 40px;
+    .contenedor-equipo  .contenido-banner_equipo .banner-equipo{
+       width: 100%;
         
     }
-    .contenido-banner_equipo{
-        width: 100%;
-        padding: 0;
-        
+    .contenedor-equipo  .contenido-banner_equipo .banner-equipo h1{
+        font-size: 2rem;
+        text-align: center;
     }
+   
 
     .contenido-banner_equipo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%;
+      
     }
     .banner-contacto_img{
-        width: 600px;
+        width: 100px;
     }
 
     .contenedor{
         width: 100%;
+        
     }
     .contenido-banner_acerca{
         display: flex;
@@ -419,12 +421,14 @@ main{
         
     }
     .contenido-banner_acerca img{
-        width: 300px;
+        width: 250px;
        
     }
-    .contenido-banner_acerca .banner-acerca h1,
+    .contenido-banner_acerca .banner-acerca{
+        padding: 4rem;
+    }
+   
     .contenido-banner_acerca .banner-acerca p{
-        text-align: center;
         font-size: 20px;
     }
 }
